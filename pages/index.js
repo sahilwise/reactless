@@ -52,49 +52,49 @@ const Beforelogin = () => {
 
   
          
-<div class="py-16 sticky overflow-hidden">
-    <div class="container m-auto px-6 space-y-8 md:px-12 lg:px-20">
+<div className="py-16 sticky overflow-hidden">
+    <div className="container m-auto px-6 space-y-8 md:px-12 lg:px-20">
         <div>
             {/* <h2 class="mt-4 text-center text-2xl text-zinc-900 font-bold md:text-4xl"></h2> */}
         </div>
-        <div class="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 md:-mx-8">
-            <div class="relative group">
-                <div aria-hidden="true" class="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
-                <div class="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
+        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 md:-mx-8">
+            <div className="relative group">
+                <div aria-hidden="true" className="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
+                <div className="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
                   
                     <div>
-                        <h4 class="text-2xl text-gray-800 font-medium transition group-hover:text-white">How to publish your app to google playstore</h4>
+                        <h4 className="text-2xl text-gray-800 font-medium transition group-hover:text-white">How to publish your app to google playstore</h4>
                     </div>
                     <img src="/google-play.png" className="w-8" width="25" height="25" alt="burger illustration" />
                 </div>
             </div>
-            <div class="relative group">
-                <div aria-hidden="true" class="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
-                <div class="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
+            <div className="relative group">
+                <div aria-hidden="true" className="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
+                <div className="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
                    
                     <div>
-                        <h4 class="text-2xl text-gray-800 font-medium transition group-hover:text-white">How to create a webview android app.</h4>
+                        <h4 className="text-2xl text-gray-800 font-medium transition group-hover:text-white">How to create a webview android app.</h4>
                     </div>
                     <img src="/instagram.png" className="w-8" width="25" height="25" alt="burger illustration" />
                 </div>
             </div>
-            <div class="relative group">
-                <div aria-hidden="true" class="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
-                <div class="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
+            <div className="relative group">
+                <div aria-hidden="true" className="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
+                <div className="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
                   
                     <div>
-                        <h4 class="text-2xl text-gray-800 font-medium transition group-hover:text-white">How to add admob ads in android webview</h4>
+                        <h4 className="text-2xl text-gray-800 font-medium transition group-hover:text-white">How to add admob ads in android webview</h4>
                     </div>
                     <img src="/twitter.png" className="w-8" width="25" height="25" alt="burger illustration" />
                 </div>
             </div>
             
-            <div class="relative group">
-                <div aria-hidden="true" class="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
-                <div class="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
+            <div className="relative group">
+                <div aria-hidden="true" className="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
+                <div className="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
                   
                     <div>
-                        <h4 class="text-2xl text-gray-800 font-medium transition group-hover:text-white">Best React Native Free Components</h4>
+                        <h4 className="text-2xl text-gray-800 font-medium transition group-hover:text-white">Best React Native Free Components</h4>
                     </div>
                     <img src="/github-logo.png" className="w-8" width="25" height="25" alt="burger illustration" />
                 </div>
@@ -104,14 +104,14 @@ const Beforelogin = () => {
     </div>
     
 </div>  
-<footer class="bg-gray-50">
-  <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
-    <div class="sm:flex sm:items-center sm:justify-between">
-      <div class="flex justify-center text-teal-600 sm:justify-start">
+<footer className="bg-white">
+  <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+    <div className="sm:flex sm:items-center sm:justify-between">
+      <div className="flex justify-center text-teal-600 sm:justify-start">
       <Image src="/appmojo.png" width="128" height="32" />
       </div>
 
-      <p class="mt-4 text-sm text-center text-gray-500 lg:text-right lg:mt-0">
+      <p className="mt-4 text-sm text-center text-gray-500 lg:text-right lg:mt-0">
         Crafted with ❤️ by  <span className="font-black">appmojo</span>
       </p>
     </div>
