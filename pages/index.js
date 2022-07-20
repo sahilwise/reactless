@@ -1,6 +1,7 @@
 import Layout from "./components/Layout";
 import Image from "next/image";
 import Link from "next/link";
+import Components from "./components/Components";
 
 const Beforelogin = () => {
     return (
@@ -9,7 +10,7 @@ const Beforelogin = () => {
         <div className="mt-4 top-0 mb-2 py-2 mx-3 flex justify-between ">
           <Image alt="addify logo" width={148} height={37} src="/appmojo.png" />
           <h1 className="font-black text-black pt-1 px-4 text-lg">
-          <Link href="https://twitter.com/appmojo" >
+          <Link href="https://twitter.com/sahilnetic" >
              <Image width="22" height="22" src="/twitter.png" />
           </Link>
           
@@ -28,12 +29,12 @@ const Beforelogin = () => {
             className="max-w-lg px-4 pt-24 py-8 mx-auto text-left md:max-w-none md:text-center"
           >
             <h1
-              className="text-3xl font-extrabold leading-10 tracking-tight text-left text-black text-center sm:leading-none md:text-6xl text-4xl lg:text-7xl"
+              className="text-3xl font-extrabold leading-10 tracking-tight text-left text-black text-center sm:leading-none md:text-6xl text-4xl lg:text-6xl"
             >
-              <span className="inline md:block">Convert Any Website</span>
+              <span className="inline md:block">Open Source Components</span>
               <span
                 className="relative mt-2 bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 to-teal-500 md:inline-block"
-              > Into A <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyon-500 via-ygreen-500 to-teal-500">Mobile</span> App</span>
+              > & <span className="bg-clip-text text-transparent bg-gradient-to-r from-zinc-500 via-cyon-500 to-teal-500"> Templates </span> Using React Native</span>
             </h1>
           </div>
   
@@ -50,60 +51,21 @@ const Beforelogin = () => {
   </div>
   </section>
 
-  
-         
-<div className="py-16 sticky overflow-hidden">
-    <div className="container m-auto px-6 space-y-8 md:px-12 lg:px-20">
-        <div>
-            {/* <h2 class="mt-4 text-center text-2xl text-zinc-900 font-bold md:text-4xl"></h2> */}
-        </div>
-        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 md:-mx-8">
-            <div className="relative group">
-                <div aria-hidden="true" className="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
-                <div className="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
-                  
-                    <div>
-                        <h4 className="text-2xl text-gray-800 font-medium transition group-hover:text-white">How to publish your app to google playstore</h4>
-                    </div>
-                    <img src="/google-play.png" className="w-8" width="25" height="25" alt="burger illustration" />
-                </div>
-            </div>
-            <div className="relative group">
-                <div aria-hidden="true" className="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
-                <div className="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
-                   
-                    <div>
-                        <h4 className="text-2xl text-gray-800 font-medium transition group-hover:text-white">How to create a webview android app.</h4>
-                    </div>
-                    <img src="/instagram.png" className="w-8" width="25" height="25" alt="burger illustration" />
-                </div>
-            </div>
-            <div className="relative group">
-                <div aria-hidden="true" className="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
-                <div className="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
-                  
-                    <div>
-                        <h4 className="text-2xl text-gray-800 font-medium transition group-hover:text-white">How to add admob ads in android webview</h4>
-                    </div>
-                    <img src="/twitter.png" className="w-8" width="25" height="25" alt="burger illustration" />
-                </div>
-            </div>
-            
-            <div className="relative group">
-                <div aria-hidden="true" className="absolute inset-0 rounded-xl bg-white shadow-2xl transition duration-300 group-hover:bg-emerald-300 group-hover:scale-105 lg:group-hover:scale-110"></div>
-                <div className="relative space-y-12 p-8 md:p-12 lg:p-8 xl:p-12">
-                  
-                    <div>
-                        <h4 className="text-2xl text-gray-800 font-medium transition group-hover:text-white">Best React Native Free Components</h4>
-                    </div>
-                    <img src="/github-logo.png" className="w-8" width="25" height="25" alt="burger illustration" />
-                </div>
-            </div>
 
-        </div>
-    </div>
-    
-</div>  
+  <div className="flex space-x-5 max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+    <h3 className="underline decoration-2 underline-offset-8">Components</h3>
+    <h3>Templates</h3>
+    <h4>Web View</h4>
+  </div>
+  {/* Components */}
+   <Components />
+
+  {/*  more components   */}
+  <div className="flex flex-col items-center justify-center mt-16">
+   <Link passHref href="/yo"><button className="border px-4 py-2 border-2 rounded-lg text-center">More Components</button></Link>
+  </div>
+         
+
 <footer className="bg-white">
   <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
     <div className="sm:flex sm:items-center sm:justify-between">
@@ -112,7 +74,7 @@ const Beforelogin = () => {
       </div>
 
       <p className="mt-4 text-sm text-center text-gray-500 lg:text-right lg:mt-0">
-        Crafted with ❤️ by  <span className="font-black">appmojo</span>
+        Crafted with ❤️ by <Link href="https://sahilnetic.xyz"><span className="font-black">sahilnetic</span></Link>
       </p>
     </div>
   </div>
@@ -122,18 +84,10 @@ const Beforelogin = () => {
 
   
   
-          <aside
+          {/* <aside
             className="fixed flex items-center justify-center text-white rounded-full bottom-20 right-10"
           >
-            <a
-              href="https://chatting.page/xssnm5kgtqpkrrnf6xkitn0oliavwy5c"
-              rel="noopener noreferrer"
-              className="text-3xl font-medium hover:opacity-75"
-            >
-              <Image width="50" height="50" src="/message.png" />
-            </a>
-  
-          </aside>
+          </aside> */}
   
         </Layout>
 
