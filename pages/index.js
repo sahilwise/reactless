@@ -29,7 +29,7 @@ const Beforelogin = () => {
             className="max-w-lg px-4 pt-24 py-8 mx-auto text-left md:max-w-none md:text-center"
           >
             <h1
-              className="text-3xl font-extrabold leading-10 tracking-tight text-left text-black text-center sm:leading-none md:text-6xl text-4xl lg:text-6xl"
+              className="text-3xl font-extrabold leading-10 tracking-tight text-left text-black text-center sm:leading-none md:text-6xl text-3xl lg:text-6xl"
             >
               <span className="inline md:block">Open Source Components</span>
               <span
